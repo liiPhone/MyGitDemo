@@ -43,7 +43,6 @@
 		5A573AE71FA992FD0029C49A /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
 		5A573AE91FA9937B0029C49A /* LaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
 		5A573AEA1FA9937B0029C49A /* LaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
-		5A6BD7431FA9C3C100AB926D /* Temp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Temp.h; sourceTree = "<group>"; };
 		5AE4CC971FA8B16100F9585E /* MyGitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE4CC9A1FA8B16100F9585E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5AE4CC9B1FA8B16100F9585E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -128,7 +127,6 @@
 				5A573AE61FA96C420029C49A /* MyPch.pch */,
 				5A573AE91FA9937B0029C49A /* LaunchViewController.h */,
 				5A573AEA1FA9937B0029C49A /* LaunchViewController.m */,
-				5A6BD7431FA9C3C100AB926D /* Temp.h */,
 			);
 			path = MyGitDemo;
 			sourceTree = "<group>";
