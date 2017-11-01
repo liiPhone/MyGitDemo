@@ -55,6 +55,7 @@
         _tabelView.estimatedSectionHeaderHeight = 0;
         _tabelView.estimatedSectionFooterHeight = 0;
         
+        NSLog(@"");
         [_tabelView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
 
         
