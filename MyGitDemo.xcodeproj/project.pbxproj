@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A573AE81FA992FD0029C49A /* launch.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A573AE71FA992FD0029C49A /* launch.png */; };
+		5A573AEB1FA9937B0029C49A /* LaunchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A573AEA1FA9937B0029C49A /* LaunchViewController.m */; };
 		5AE4CC9C1FA8B16100F9585E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE4CC9B1FA8B16100F9585E /* AppDelegate.m */; };
 		5AE4CC9F1FA8B16100F9585E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE4CC9E1FA8B16100F9585E /* ViewController.m */; };
 		5AE4CCA21FA8B16100F9585E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5AE4CCA01FA8B16100F9585E /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		5AE4CCAA1FA8B16100F9585E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE4CCA91FA8B16100F9585E /* main.m */; };
 		5AE4CCB41FA8B16100F9585E /* MyGitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE4CCB31FA8B16100F9585E /* MyGitDemoTests.m */; };
 		5AE4CCBF1FA8B16100F9585E /* MyGitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AE4CCBE1FA8B16100F9585E /* MyGitDemoUITests.m */; };
+		5FD20D19D6B11C66C3083AF4 /* libPods-MyGitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA5CE7A59B147C4633B54106 /* libPods-MyGitDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DF269AFDB28C38B19D1CF0A /* Pods-MyGitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyGitDemo/Pods-MyGitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5A573AE61FA96C420029C49A /* MyPch.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyPch.pch; sourceTree = "<group>"; };
+		5A573AE71FA992FD0029C49A /* launch.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launch.png; sourceTree = "<group>"; };
+		5A573AE91FA9937B0029C49A /* LaunchViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LaunchViewController.h; sourceTree = "<group>"; };
+		5A573AEA1FA9937B0029C49A /* LaunchViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LaunchViewController.m; sourceTree = "<group>"; };
 		5AE4CC971FA8B16100F9585E /* MyGitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyGitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE4CC9A1FA8B16100F9585E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5AE4CC9B1FA8B16100F9585E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +59,8 @@
 		5AE4CCBA1FA8B16100F9585E /* MyGitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyGitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5AE4CCBE1FA8B16100F9585E /* MyGitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyGitDemoUITests.m; sourceTree = "<group>"; };
 		5AE4CCC01FA8B16100F9585E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69BF5D86053A77CFA1D60920 /* Pods-MyGitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyGitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyGitDemo/Pods-MyGitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AA5CE7A59B147C4633B54106 /* libPods-MyGitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyGitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD20D19D6B11C66C3083AF4 /* libPods-MyGitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +96,8 @@
 				5AE4CCB21FA8B16100F9585E /* MyGitDemoTests */,
 				5AE4CCBD1FA8B16100F9585E /* MyGitDemoUITests */,
 				5AE4CC981FA8B16100F9585E /* Products */,
+				A6663AA3D9935B941D96FDA9 /* Pods */,
+				B2B3B9196143CBEE3C52745B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +114,7 @@
 		5AE4CC991FA8B16100F9585E /* MyGitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5A573AE71FA992FD0029C49A /* launch.png */,
 				5AE4CC9A1FA8B16100F9585E /* AppDelegate.h */,
 				5AE4CC9B1FA8B16100F9585E /* AppDelegate.m */,
 				5AE4CC9D1FA8B16100F9585E /* ViewController.h */,
@@ -110,6 +124,9 @@
 				5AE4CCA51FA8B16100F9585E /* LaunchScreen.storyboard */,
 				5AE4CCA81FA8B16100F9585E /* Info.plist */,
 				5AE4CCA91FA8B16100F9585E /* main.m */,
+				5A573AE61FA96C420029C49A /* MyPch.pch */,
+				5A573AE91FA9937B0029C49A /* LaunchViewController.h */,
+				5A573AEA1FA9937B0029C49A /* LaunchViewController.m */,
 			);
 			path = MyGitDemo;
 			sourceTree = "<group>";
@@ -132,6 +149,23 @@
 			path = MyGitDemoUITests;
 			sourceTree = "<group>";
 		};
+		A6663AA3D9935B941D96FDA9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DF269AFDB28C38B19D1CF0A /* Pods-MyGitDemo.debug.xcconfig */,
+				69BF5D86053A77CFA1D60920 /* Pods-MyGitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2B3B9196143CBEE3C52745B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AA5CE7A59B147C4633B54106 /* libPods-MyGitDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +173,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5AE4CCC31FA8B16100F9585E /* Build configuration list for PBXNativeTarget "MyGitDemo" */;
 			buildPhases = (
+				4CCB93D73811D0C729B9C57F /* [CP] Check Pods Manifest.lock */,
 				5AE4CC931FA8B16100F9585E /* Sources */,
 				5AE4CC941FA8B16100F9585E /* Frameworks */,
 				5AE4CC951FA8B16100F9585E /* Resources */,
+				71916BA941BE63B06BCA2156 /* [CP] Embed Pods Frameworks */,
+				690DBD3CBB46DD3660EE979E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -238,6 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A573AE81FA992FD0029C49A /* launch.png in Resources */,
 				5AE4CCA71FA8B16100F9585E /* LaunchScreen.storyboard in Resources */,
 				5AE4CCA41FA8B16100F9585E /* Assets.xcassets in Resources */,
 				5AE4CCA21FA8B16100F9585E /* Main.storyboard in Resources */,
@@ -260,6 +298,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4CCB93D73811D0C729B9C57F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyGitDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		690DBD3CBB46DD3660EE979E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyGitDemo/Pods-MyGitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		71916BA941BE63B06BCA2156 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyGitDemo/Pods-MyGitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5AE4CC931FA8B16100F9585E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -268,6 +357,7 @@
 				5AE4CC9F1FA8B16100F9585E /* ViewController.m in Sources */,
 				5AE4CCAA1FA8B16100F9585E /* main.m in Sources */,
 				5AE4CC9C1FA8B16100F9585E /* AppDelegate.m in Sources */,
+				5A573AEB1FA9937B0029C49A /* LaunchViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,10 +518,12 @@
 		};
 		5AE4CCC41FA8B16100F9585E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DF269AFDB28C38B19D1CF0A /* Pods-MyGitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 722NRKH4P6;
+				GCC_PREFIX_HEADER = MyGitDemo/MyPch.pch;
 				INFOPLIST_FILE = MyGitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liquan.MyGitDemo;
@@ -442,10 +534,12 @@
 		};
 		5AE4CCC51FA8B16100F9585E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69BF5D86053A77CFA1D60920 /* Pods-MyGitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 722NRKH4P6;
+				GCC_PREFIX_HEADER = MyGitDemo/MyPch.pch;
 				INFOPLIST_FILE = MyGitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = liquan.MyGitDemo;
