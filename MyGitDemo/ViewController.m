@@ -57,7 +57,8 @@
         
         NSLog(@"");
         [_tabelView registerClass:[UITableViewCell class] forCellReuseIdentifier:@"cell"];
-
+      
+        //这是master 修改的
         
     }
     return _tabelView;
